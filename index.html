@@ -1,17 +1,158 @@
-<html>
-<head>
-    <link href="stylesheets/index.css" type="text/css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
-    <link href="bootstrap/js/bootstrap.min.js" type="text/javascript" />
-</head>
-<body>
-    <div class="container_topbar" >
-        <div class="topbar" >
-            <div class="topbar_logo" >Deepak Ramachandran</div>
-            <div class="topbar_button" >Contact Me</div>
-            <div class="topbar_button" >Projects</div>
-            <div class="topbar_button" >Home</div>
-        </div>
-    </div>
-</body>
-</html>
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container_topbar{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    min-width: 800px;
+    height: 75px;
+    overflow: auto;
+    box-shadow: 0px -1px 15px 1px rgb(7, 41, 127);/*rgb(66, 91, 255);*/
+}
+
+.topbar{
+    background-color: rgb(253, 253, 253);
+    color: rgb(30, 30, 30);
+    width: 1000px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar_logo{
+    background-color: rgb(26, 64, 124);
+    color: white;
+    float: left;
+    width: 300px;
+    height: 75px;
+    line-height: 75px;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    overflow: auto;
+}
+
+.topbar_button{
+    background-color: inherit;
+    color: rgb(219, 67, 37);
+    width: 150px;
+    height: 75px;
+    float: right;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.topbar_button:hover{
+    color: rgb(209, 20, 0);
+    font-weight: 600;
+}
+
+.quotearea{
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	width: 100vw;
+	height: 75vh;
+	margin-top: 15px;
+	overflow: auto;
+}
+
+.quote{
+	background-color: rgb(0, 0, 0, 0.75);
+	color: white;
+	line-height: 40px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	width: 500px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: calc(17% - 100px);
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 4px solid rgb(8, 142, 0);
+	border-top: none;
+	border-bottom: none;
+}
+
+.container_about{
+	background-color: white;
+	color: black;
+	width: 100%;
+	height: 600px;
+	margin-top: 15px;
+}
+
+.about_header{
+	background-color: inherit;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 75px;
+}
+
+.about_icon{
+	display: block;
+	width: 100px;
+	height: 75px;
+	float: left;
+}
+
+.about_title{
+	color: rgb(8, 142, 0);
+	font-family: 'PT Sans', sans-serif;
+	float: left;
+	width: 176px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 15px;
+	border-left: 4px solid rgb(8, 142, 0);
+	margin-left: 5px;
+}
+
+.container_about_body{
+	background-color: inherit;
+	width: 800px;
+	height: 510px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about_body{
+	background-color: inherit;
+	width: 500px;
+	height: 510px;
+	float: left;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 19px;
+}
+
+.container_body_images{
+	background-color: inherit;
+	width: 300px;
+	height: 510px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about_body_image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
